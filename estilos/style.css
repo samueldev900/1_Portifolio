@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap');
+
+:root{
+    --cor1:#1A1F2B;
+    --cor2:#30395C; 
+    --cor3:#4A6491; 
+    --cor4:#85A5CC; 
+    --cor5:#D0E4F2; 
+}
+
+/* Color Theme Swatches in Hex */
+.portifolio-1-hex { color: #1A1F2B; }
+.portifolio-2-hex { color: #30395C; }
+.portifolio-3-hex { color: #4A6491; }
+.portifolio-4-hex { color: #85A5CC; }
+.portifolio-5-hex { color: #D0E4F2; }
+
+/* Color Theme Swatches in RGBA */
+.portifolio-1-rgba { color: rgba(26, 30, 43, 1); }
+.portifolio-2-rgba { color: rgba(47, 56, 91, 1); }
+.portifolio-3-rgba { color: rgba(74, 100, 145, 1); }
+.portifolio-4-rgba { color: rgba(132, 164, 204, 1); }
+.portifolio-5-rgba { color: rgba(208, 228, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.portifolio-1-hsla { color: hsla(223, 25, 13, 1); }
+.portifolio-2-hsla { color: hsla(227, 31, 27, 1); }
+.portifolio-3-hsla { color: hsla(218, 32, 43, 1); }
+.portifolio-4-hsla { color: hsla(213, 41, 66, 1); }
+.portifolio-5-hsla { color: hsla(204, 57, 88, 1); }
+
+*{
+    font-family: Ubuntu,sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+
+    background-color: var(--cor2);
+    color: var(--cor5);
+
+}
+
+header{
+
+    background-color: var(--cor1);
+    text-align: right;
+    
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.about{
+    color: var(--cor5);
+    text-decoration: none;
+}
+
