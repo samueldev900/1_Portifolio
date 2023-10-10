@@ -55,55 +55,87 @@ header{
     text-align: right;
 }
 
-#menu{
+i#logo{
     position: absolute;
-    top: 65%;
-    left: 90%;
-    font-size: 25pt;
-    cursor: pointer;
+    font-size: 2.9em;
+    padding-top: 15px;
+    padding-left: px;
+    top: 6%;
+    left: 20px;
+    color: #fff;
 }
 
 
+#menu{
+    position: absolute;
+    
+    left: 90%;
+    font-size: 25pt;
+    cursor: pointer;
+    color: white;
+}
+
+#menup{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 150px;
+    background-color: #1A1F2B;
+    text-align: center;
+
+}
+#btn-fechar{
+
+    position: absolute;
+    left: 5%;
+    top: 0.7%;
+    align-items: lef;
+    font-size: 15pt;
+    cursor: pointer;
+    color: white;
+}
+#menu:hover, #btn-fechar:hover{
+    color: #85A5CC;
+}
+
+.menu-lateral{
+
+    position: absolute;
+    left: 120%;
+    
+}
+
 li{
-    display: inline-block;
-    padding: 0px;
+
+    padding: 50px;
     padding-top: 0px;
-    font-size: 1.2em;
+    font-size: 2em;
+    font-weight: bold;
+    list-style-type: none;
     
 }
 
 .about{
+    
     color: #fff;
     text-decoration: none;
+
 }
 
 .about:hover{
     color: #85A5CC;
 }
 
-i#logo{
-    position: absolute;
-    font-size: 2.9em;
-    padding-top: 15px;
-    padding-left: px;
-    top: 45%;
-    left: 20px;
-    color: #fff;
-}
-
 div#picons{
 
-    display: none;
-}
-#close{
-
-    display: none;
+    display: inline-block;
+    font-size: 2.6em;
 
 }
+
 div#picons a{
 
     color: white;
-
+    padding: 0px 50px;
 }
 
 div#picons a:hover{
