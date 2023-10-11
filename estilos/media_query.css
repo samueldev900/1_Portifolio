@@ -1,12 +1,125 @@
 @charset "UTF-8";
+/*
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+*/
+
+
+:root{
+    --cor1:#1A1F2B;
+    --cor2:#30395C; 
+    --cor3:#4A6491; 
+    --cor4:#85A5CC; 
+    --cor5:#D0E4F2; 
+}
+
 
 @media screen and (min-width: 768px) {
 
+    #btn-menu{
+        display: none;
+    }
+    header{
+        position: relative;
+        display: block;
+        height: 100px;
+        width: 100%;
+        text-align: right;
+    }
+
+    li{
+        display: inline-block;
+        list-style-type: none;
+        padding: 10px;
+        padding-top: 40px;
+    }
+
+    .topicos a{
+        text-decoration: none;
+        color: white;
+        font-size: 8pt;
+
+    }
+
+    .topicos a:hover{
+
+        color: var(--cor3);
 
 
-    
+    }
+
+    .redes-sociais{
+        position: absolute;
+        top: -5%;
+        left: 20%;
+
+        font-size: 2em;
+        
+    }
+    .redes-sociais a{
+
+        text-decoration: none;
+        color: white;
+        font-size: 13pt;
+        padding: 0px 10px;
+
+    }
+
+    .redes-sociais a:hover{
+        color: var(--cor3);
+    }
+
+}
 
 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+
+    h1{
+
+        color: red;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+
+
+    h1{
+
+        color: purple;
+    }
+
+}
+
+
+@media screen and (min-width: 1201px){
+
+
+    .redes-sociais a{
+
+        font-size: 17pt;
+    }
+
+    ul{
+        padding-right: 150px;
+    }
+
+
+    .topicos a{
+        text-decoration: none;
+        color: white;
+        font-size: 8pt;
+        padding-left: 50px;
+
+    }
+
+    h1{
+        color: green;
+    }
 
 }
 
