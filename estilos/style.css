@@ -50,6 +50,9 @@ body{
 header{
     display: none;
 }
+#letra-colorida{
+    color: #0CF25D;
+}
 
 i#logo{
     position: absolute;
@@ -197,3 +200,27 @@ img{
     border-radius: 50%;
 }
 
+footer {
+    background-color: #1A1F2B;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Defina o tamanho e a posição do ícone */
+.wpp {
+    position: fixed;
+    bottom: 20px; /* Ajuste conforme necessário para a posição vertical desejada */
+    right: 20px; /* Ajuste conforme necessário para a posição horizontal desejada */
+    z-index: 999; /* Coloque-o acima de outros elementos na página, se necessário */
+}
+
+/* Aumente o tamanho do ícone */
+.wpp i {
+    font-size: 3em; /* Ajuste o tamanho conforme necessário */
+}
