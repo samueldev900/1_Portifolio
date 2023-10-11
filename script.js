@@ -1,18 +1,21 @@
 function btnMenu(){
 
-    var b = document.getElementById('imenu-lateral');
-    var a = document.getElementById('main')
-    a.style.display = 'none'
-    b.style.left = "0%"
-    b.style.transition = '0.3s'
+    var menuLateral = document.getElementById('imenu-lateral');
+    var main = document.getElementById('main')
+    
+    menuLateral.style.left = "0%"
+    menuLateral.style.transition = '0.3s'
+    
+    main.style.display = 'none'
 }
 
 function btnFechar(){
-    var b = document.getElementById('imenu-lateral');
-    b.style.left = "120%"
-    b.style.transition = '0.1s'
-    var a = document.getElementById('main')
-    a.style.display = 'block'
+    var menuLateral = document.getElementById('imenu-lateral');
+    menuLateral.style.left = "120%"
+    menuLateral.style.transition = '0.1s'
+
+    var main = document.getElementById('main')
+    main.style.display = 'block'
 
 }
 

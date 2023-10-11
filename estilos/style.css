@@ -98,17 +98,12 @@ i#logo{
 }
 
 .menu-lateral{
-    display: block;
+    
     position: fixed;
+    left: 120%;
     width: 0;
     height: 100%;
     
-   
-    
-}
-
-#teste{
-    width: 0;
 }
 
 li{
