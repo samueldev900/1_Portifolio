@@ -5,18 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="FAVICON/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
-
-    <!--Bootstrap-->
     <title>Bem-vindo</title>
 </head>
 <body>
     <i class="fi fi-rs-display-code" id="logo"></i>
     
-    <header>
-        <i onclick="btnMenu()" id="menu" name="menu" class="fa-solid fa-bars"></i>
+    
+        <i onclick="btnMenu()" id="btn-menu" name="btn-menu" class="fa-solid fa-bars"></i>
         <div  class="menu-lateral" id="imenu-lateral">
             <i onclick="btnFechar()" id="btn-fechar" class="fa-solid fa-x"></i>
-            <nav id="menup">
+            <nav id="nav-menup">
                <ul>
                 <li><a class="about" href="#">About</a></li>
                 <li><a class="about" href="#">Experience</a></li>
@@ -30,10 +28,9 @@
                 </div>
             </nav>
         </div>
-    </header>
+    
 
-    <main>
-
+    <main id="main">
         <article id="first">
             <p style="font-weight: bolder;">Olá, meu nome é</p>
             <h1>Samuel Oliveira.</h1>
