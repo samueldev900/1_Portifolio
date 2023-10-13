@@ -116,7 +116,7 @@ li{
 }
 
 .about{
-    
+    position: relative;
     color: #fff;
     text-decoration: none;
 
@@ -194,6 +194,7 @@ article#about{
 }
 
 img{
+    position: relative;
     width: 350px;
     height: 350px;
     margin-top: 60px;

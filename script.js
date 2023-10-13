@@ -19,3 +19,21 @@ function btnFechar(){
 
 }
 
+
+
+
+
+var follower = document.getElementById('follower');
+document.documentElement.addEventListener('mousemove', (e) => {
+    var x = e.clientX - 150; // 50 é metade da largura da div
+    var y = e.clientY - 150; // 50 é metade da altura da div
+    follower.style.left = x + 'px';
+    follower.style.top = y + 'px';
+});
+
+
+
+
+
+
+
