@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/*
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+*/
+
+
+:root{
+    --cor1:#1A1F2B;
+    --cor2:#30395C; 
+    --cor3:#4A6491; 
+    --cor4:#85A5CC; 
+    --cor5:#D0E4F2; 
+}
+
+
+@media screen and (min-width: 768px) {
+
+    #btn-menu{
+        display: none;
+    }
+    header{
+        
+        display: flex;
+        flex-flow: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        width: 96vw;
+        text-align: right;
+        
+    }
+
+    li{
+        display: inline-block;
+        list-style-type: none;
+        padding: 10px;
+        padding-top: 40px;
+    }
+
+    .topicos a{
+        text-decoration: none;
+        color: white;
+        font-size: 0.5em;
+
+    }
+
+    .topicos a:hover{
+
+        color: var(--cor3);
+
+
+    }
+
+    .redes-sociais{
+
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        font-size: 2em;
+    }
+    .redes-sociais a{
+
+        text-decoration: none;
+        color: white;
+        font-size: 10pt;
+    }
+
+    .redes-sociais a:hover{
+        color: var(--cor3);
+    }
+
+    article#first{
+
+       
+        align-self: baseline;
+
+    }
+
+    article#about{
+
+        width: 80vw;
+        display:flex;
+        font-weight: bold;
+        font-size: larger;
+        
+    
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-around;
+       
+
+    }
+
+    .wpp {
+        position: fixed;
+        bottom: 100px; /* Ajuste conforme necessário para a posição vertical desejada */
+        right: 50px; /* Ajuste conforme necessário para a posição horizontal desejada */
+        z-index: 999; /* Coloque-o acima de outros elementos na página, se necessário */
+    }
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    h1{
+
+        color:red;
+    }
+    article#first{
+        font-size: 1.2em;
+        width: 50vw;
+    }
+    article#about{
+
+        width: 90vw;
+        height: auto;
+
+    }
+    .light {
+        pointer-events: none;
+        position: fixed;
+        height: 300px;
+        width: 300px;
+        box-shadow: 4px 1px 200px 200px rgba(74, 100, 145, 0.12);
+        border-radius: 50%;
+        background-color: rgba(74, 100, 145, 0.12);
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+
+    article#first{
+        font-size: 1.2em;
+        width: 40vw;
+    }
+
+    h1{
+
+        color: blue;
+    }
+    .light {
+        pointer-events: none;
+        position: fixed;
+        height: 300px;
+        width: 300px;
+        box-shadow: 4px 1px 200px 200px rgba(74, 100, 145, 0.12);
+        border-radius: 50%;
+        background-color: rgba(74, 100, 145, 0.12);
+    }
+
+}
+
+
+@media screen and (min-width: 1201px){
+
+
+    .redes-sociais a{
+
+        font-size: 17pt;
+    }
+
+    ul{
+        padding-right: 150px;
+    }
+
+    .topicos a{
+        text-decoration: none;
+        color: white;
+        font-size: 8pt;
+        padding-left: 50px;
+    }
+
+    h1{
+        color: #25d366;
+    }
+    article#first{
+        width: 60vw;
+        margin-left: 100px; 
+        margin-top: 170px; 
+        font-size: 1.2em;      
+    }
+    article#about{
+
+        width: 70vw;
+
+
+    }
+    .light {
+        pointer-events: none;
+        position: fixed;
+        height: 300px;
+        width: 300px;
+        box-shadow: 4px 1px 200px 200px rgba(74, 100, 145, 0.12);
+        border-radius: 50%;
+        background-color: rgba(74, 100, 145, 0.12);
+    }
+
+}
+
+@media screen and (min-width: 1501px){
+
+    article#first{
+        font-size: 1.5em;
+        width: 40vw;
+
+    }
+    article#about{
+
+        width: 50vw;
+
+
+    }
+    .light {
+        pointer-events: none;
+        position: fixed;
+        height: 300px;
+        width: 300px;
+        box-shadow: 4px 1px 200px 200px rgba(74, 100, 145, 0.12);
+        border-radius: 50%;
+        background-color: rgba(74, 100, 145, 0.12);
+    }
+}
+
+    

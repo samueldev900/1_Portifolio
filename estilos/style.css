@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap');
+
+:root{
+    --cor1:#1A1F2B;
+    --cor2:#30395C; 
+    --cor3:#4A6491; 
+    --cor4:#85A5CC; 
+    --cor5:#D0E4F2; 
+}
+
+/* Color Theme Swatches in Hex */
+.portifolio-1-hex { color: #1A1F2B; }
+.portifolio-2-hex { color: #30395C; }
+.portifolio-3-hex { color: #4A6491; }
+.portifolio-4-hex { color: #85A5CC; }
+.portifolio-5-hex { color: #D0E4F2; }
+
+/* Color Theme Swatches in RGBA */
+.portifolio-1-rgba { color: rgba(26, 30, 43, 1); }
+.portifolio-2-rgba { color: rgba(47, 56, 91, 1); }
+.portifolio-3-rgba { color: rgba(74, 100, 145, 1); }
+.portifolio-4-rgba { color: rgba(132, 164, 204, 1); }
+.portifolio-5-rgba { color: rgba(208, 228, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.portifolio-1-hsla { color: hsla(223, 25, 13, 1); }
+.portifolio-2-hsla { color: hsla(227, 31, 27, 1); }
+.portifolio-3-hsla { color: hsla(218, 32, 43, 1); }
+.portifolio-4-hsla { color: hsla(213, 41, 66, 1); }
+.portifolio-5-hsla { color: hsla(204, 57, 88, 1); }
+
+*{
+    font-family: Ubuntu,sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body,html{
+    width: 96.5vw;
+    height: auto;
+    background-color: var(--cor1);
+    color: var(--cor5);
+
+}
+
+
+/*=========================CONFIGURAÇÃO DO HEADER===========================*/
+
+header{
+    display: none;
+}
+#letra-colorida{
+    color: #0CF25D;
+}
+
+i#logo{
+    position: absolute;
+    font-size: 2.9em;
+    padding-top: 15px;
+    padding-left: px;
+    top: 1%;
+    left: 20px;
+    color: #fff;
+}
+
+
+#btn-menu{
+    position: absolute;
+    top: 8%;
+    left: 90%;
+    font-size: 25pt;
+    cursor: pointer;
+    color: white;
+}
+
+#nav-menup{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 150px;
+    background-color: #1A1F2B;
+    text-align: center;
+
+}
+#btn-fechar{
+
+    position: absolute;
+    padding-left: 20px;
+    top: 5%;
+    align-items: lef;
+    font-size: 15pt;
+    cursor: pointer;
+    color: white;
+}
+#menu:hover, #btn-fechar:hover{
+    color: #85A5CC;
+}
+
+.menu-lateral{
+    
+    position: fixed;
+    left: 120%;
+    width: 0;
+    height: 100%;
+    
+}
+
+li{
+
+    padding: 50px;
+    padding-top: 0px;
+    font-size: 2em;
+    font-weight: bold;
+    list-style-type: none;
+    
+}
+
+.about{
+   
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.about:hover{
+    color: #85A5CC;
+}
+
+div#picons{
+
+    display: flex;
+    justify-content: center;
+    font-size: 2.6em;
+
+}
+
+div#picons a{
+
+    color: white;
+    padding: 0px 50px;
+}
+
+div#picons a:hover{
+    color: var(--cor4);
+}
+i#redes{
+    padding: 0px 0px;
+}
+
+
+/*=========================CONTEUDO PRINCIPAL =====================================*/
+
+
+main{
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+article#first{
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 70vw;
+    height: 50vh;
+    
+    padding: 30px;
+    padding-right: 90px;
+    color: #fff; 
+    
+}
+
+article#first p{
+
+    margin-top: 55px;
+    text-align: justify;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+article h1{
+
+    font-size: 40pt;
+    padding-top: 15px;
+
+}
+
+article#about{
+
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: space-around;
+    width: 96vw;
+    height: 80vh;
+    padding-top: 100px;
+    font-weight: bold;
+    color: white;
+    
+
+}
+
+div#conteudo{
+
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1F2B; 
+}
+
+/* Defina o tamanho e a posição do ícone */
+.wpp {
+    position: fixed;
+    bottom: 100px; /* Ajuste conforme necessário para a posição vertical desejada */
+    right: 35px; /* Ajuste conforme necessário para a posição horizontal desejada */
+    z-index: 999; /* Coloque-o acima de outros elementos na página, se necessário */
+}
+
+/* Aumente o tamanho do ícone */
+.wpp i {
+    font-size: 3em; /* Ajuste o tamanho conforme necessário */
+}
