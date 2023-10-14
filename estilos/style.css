@@ -227,7 +227,7 @@ footer {
 .wpp {
     position: fixed;
     bottom: 100px; /* Ajuste conforme necessário para a posição vertical desejada */
-    right: 20px; /* Ajuste conforme necessário para a posição horizontal desejada */
+    right: 35px; /* Ajuste conforme necessário para a posição horizontal desejada */
     z-index: 999; /* Coloque-o acima de outros elementos na página, se necessário */
 }
 

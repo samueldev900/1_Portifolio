@@ -95,6 +95,13 @@
 
     }
 
+    .wpp {
+        position: fixed;
+        bottom: 100px; /* Ajuste conforme necessário para a posição vertical desejada */
+        right: 50px; /* Ajuste conforme necessário para a posição horizontal desejada */
+        z-index: 999; /* Coloque-o acima de outros elementos na página, se necessário */
+    }
+
 }
 
 
@@ -170,10 +177,6 @@
 
     h1{
         color: #25d366;
-    }
-        article#first{
-        
-        
     }
     article#first{
         width: 60vw;
