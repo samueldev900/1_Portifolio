@@ -73,24 +73,14 @@
     }
 
     article#about{
+        display: flex;
+        font-weight: bold;
+        font-size: larger;
+        flex-flow:row wrap;
+        justify-content:space-between;
+        flex-flow: row;
+        align-items: center;
 
-        margin: auto;
-        margin-top: 280px;
-        text-align: left;
-       
-
-    }
-    article#about img{
-        position: absolute;
-        position: absolute;
-        top: 125%;
-        left: 55%;
-    }
-    article#about p{
-        position: absolute;
-        top: 125%;
-        left: 20%;
-        width: 300px;
     }
 
     .light {
@@ -112,13 +102,6 @@
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
-
-    article#about p{
-        position: absolute;
-        top: 125%;
-        left: 10%;
-        width: 300px;
-    }
     h1{
 
         color: #25d366;
