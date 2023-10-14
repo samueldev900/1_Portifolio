@@ -155,6 +155,7 @@ i#redes{
 main{
     
     display: flex;
+    height: auto;
     flex-flow: column;
     align-items: center;
 }
@@ -235,3 +236,88 @@ footer {
 .wpp i {
     font-size: 3em; /* Ajuste o tamanho conforme necessário */
 }
+
+
+.skills{
+    height: 400px;
+    width: 70vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 50px;
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+form{
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 500px;
+    padding: 5px;
+    background-color: var(--cor3);
+    border-radius: 20px;
+    
+}
+
+form input{
+    width:300px;
+    height: 30px;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea{
+    margin-top: 30px;
+    width: 360px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.btn-form{
+    height: 40px;
+    width: 150px;
+
+    margin: 10px;
+    padding: 10px;
+
+    background-color: var(--cor2);
+    color: white;
+
+    cursor: pointer;
+}
+
+.btn-form:hover{
+
+    background-color: var(--cor4);
+
+
+}
+.btn-form:active {
+    background-color: var(--cor5);
+}
+
+.caixa-flex{
+
+    display: flex;
+    padding: 20px;
+
+}
+
+#mysql{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
