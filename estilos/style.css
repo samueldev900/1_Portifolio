@@ -168,13 +168,17 @@ article#first{
     height: 50vh;
     
     padding: 30px;
+    padding-right: 90px;
     color: #fff; 
+    
 }
 
-article#first h2{
+article#first p{
 
     margin-top: 55px;
     text-align: justify;
+    font-size: 1em;
+    font-weight: bold;
 
 }
 
@@ -195,6 +199,7 @@ article#about{
     height: 80vh;
     padding-top: 100px;
     font-weight: bold;
+    color: white;
     
 
 }
@@ -205,22 +210,17 @@ div#conteudo{
     display: flex;
     justify-content: center;
 }
-
-
 img{
     width: 300px;
     height: 300px;
     border-radius: 50%;
 }
-
 footer {
-    
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1A1F2B;
-    
+    background-color: #1A1F2B; 
 }
 
 /* Defina o tamanho e a posição do ícone */
